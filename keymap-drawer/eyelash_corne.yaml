@@ -4,8 +4,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - Z
   - Y
-  - U
   - O
+  - U
   - Super Copy
   - $$mdi:volume-high$$
   - Q
@@ -17,8 +17,8 @@ layers:
   - W
   - C
   - I
-  - E
   - A
+  - E
   - {t: ',', s: ;}
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
