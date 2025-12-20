@@ -117,11 +117,11 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
 ZMK_BASE_LAYER(Enthium,
 //╭─────────────┬───────────────┬───────────────┬──────────────┬─────────────┬──────────────╮ ╭─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp ESC         &kp Z           &kp Y           &kp O         &kp U     &cp_pst_cut_mv,                &kp C_VOL_UP               ,     &kp Q         &kp L         &kp D         &kp P         &kp X       &undo_redo  ,
+      &kp ESC         &kp Q           &kp Y           &kp O         &kp U     &cp_pst_cut_mv,                &kp C_VOL_UP               ,     &kp X         &kp L         &kp D         &kp W         &kp Z       &undo_redo  ,
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼──────────────┤ ├─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp W           &kp C           &kp I           &kp A         &kp E       &cma_smcln  ,   &kp C_PREV     &kp C_PP     &kp C_NEXT  ,     &kp K         &kp H         &kp T         &kp N         &kp S         &kp F     ,
+      &kp B           &kp C           &kp I           &kp A         &kp E       &cma_smcln  ,   &kp C_PREV     &kp C_PP     &kp C_NEXT  ,     &kp K         &kp H         &kp T         &kp N         &kp S         &kp F     ,
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼──────────────┤ ├─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &bs_del     &hml LCTL SQT  &hml LALT MINUS  &lg_qns_excl  &ls_dot_colon    &at_hash   ,      XXX      &kp C_VOL_DN                ,     &kp J     &hmr RSHFT M   &hmr RGUI G   &hmr RALT B  &hmr RCTRL V    &kp ENTER   ,
+      &bs_del     &hml LCTL SQT  &hml LALT MINUS  &lg_qns_excl  &ls_dot_colon    &at_hash   ,      XXX      &kp C_VOL_DN                ,     &kp J     &hmr RSHFT M   &hmr RGUI G   &hmr RALT P  &hmr RCTRL V    &kp ENTER   ,
 //╰─────────────┴───────────────┴───────────────┼──────────────┼─────────────┼──────────────┤ ╰─────────────┴─────────────┴─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                     SMART_NUM     &kp SPACE     SMART_NAV   ,                                              MAGIC_SHIFT      &kp R       SMART_SYM
 //                                              ╰──────────────┴─────────────┴──────────────╯                                             ╰─────────────┴─────────────┴─────────────╯

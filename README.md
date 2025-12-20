@@ -1,5 +1,4 @@
 # Jon's Eyelash Corne ZMK Configurations
-_This is a work in progress zmk config_
 
 ## My Eyelash Corne Build
 - Left: 3x6
@@ -8,7 +7,7 @@ _This is a work in progress zmk config_
 - Joystick on the right hand side
 
 ## Highlights
-- [sunaku's Enthium v10 Layout](https://github.com/sunaku/enthium)
+- [sunaku's Enthium v12 Layout](https://github.com/sunaku/enthium)
 - Designed for typing on MacOS
 - Heavily based on [urob's zmk-config](https://github.com/urob/zmk-config)
   - [urob's "Timeless" homerow mods](https://github.com/urob/zmk-config/tree/main?tab=readme-ov-file#timeless-homerow-mods)
