@@ -117,11 +117,11 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
 ZMK_BASE_LAYER(Enthium,
 //╭─────────────┬───────────────┬───────────────┬──────────────┬─────────────┬──────────────╮ ╭─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp ESC         &kp Q           &kp Y           &kp O         &kp U     &cp_pst_cut_mv,                    &MS_UP                 ,     &kp X         &kp L         &kp D         &kp W         &kp Z       &undo_redo  ,
+      &kp ESC         &kp Q           &kp Y           &kp O         &kp U     &cp_pst_cut_mv,                  &kp MS_UP                ,     &kp X         &kp L         &kp D         &kp W         &kp Z       &undo_redo  ,
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼──────────────┤ ├─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp B           &kp C           &kp I           &kp A         &kp E       &cma_smcln  ,     &MS_LEFT      &MS_BTN1      &MS_RGHT  ,     &kp K         &kp H         &kp T         &kp N         &kp S         &kp F     ,
+      &kp B           &kp C           &kp I           &kp A         &kp E       &cma_smcln  ,   &kp MS_LEFT   &kp MS_BTN1   &kp MS_RGHT ,     &kp K         &kp H         &kp T         &kp N         &kp S         &kp F     ,
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼──────────────┤ ├─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &bs_del     &hml LCTL SQT  &hml LALT MINUS  &lg_qns_excl  &ls_dot_colon    &at_hash   ,      XXX          &MS_DOWN                ,     &kp J     &hmr RSHFT M   &hmr RGUI G   &hmr RALT P  &hmr RCTRL V    &kp ENTER   ,
+      &bs_del     &hml LCTL SQT  &hml LALT MINUS  &lg_qns_excl  &ls_dot_colon    &at_hash   ,      XXX        &kp MS_DOWN               ,     &kp J     &hmr RSHFT M   &hmr RGUI G   &hmr RALT P  &hmr RCTRL V    &kp ENTER   ,
 //╰─────────────┴───────────────┴───────────────┼──────────────┼─────────────┼──────────────┤ ╰─────────────┴─────────────┴─────────────╯ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                     SMART_NUM     &kp SPACE     SMART_NAV   ,                                              MAGIC_SHIFT      &kp R       SMART_SYM
 //                                              ╰──────────────┴─────────────┴──────────────╯                                             ╰─────────────┴─────────────┴─────────────╯
@@ -178,11 +178,11 @@ ZMK_BASE_LAYER(Mouse,
 
 ZMK_BASE_LAYER(Functions,
 //╭─────────────┬───────────────┬───────────────┬──────────────┬─────────────┬─────────────╮ ╭───────────────┬───────────────┬───────────────╮ ╭─────────────┬─────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-        XXX            XXX             XXX             XXX           XXX           XXX     ,                  &rgb_ug RGB_BRI                , &rgb_ug RGB_SPI     XXX            XXX             XXX    &QK_MOUSE_ACCELERATION_0 XXX      ,
+        XXX            XXX             XXX             XXX           XXX           XXX     ,                  &rgb_ug RGB_BRI                , &rgb_ug RGB_SPI     XXX            XXX             XXX  &kp QK_MOUSE_ACCELERATION_0 XXX      ,
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼─────────────┤ ├───────────────┼───────────────┼───────────────┤ ├─────────────┼─────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3      XXX     ,  &rgb_ug RGB_EFF &rgb_ug RGB_TOG &rgb_ug RGB_EFR, &rgb_ug RGB_SPD     XXX            XXX             XXX    &QK_MOUSE_ACCELERATION_1 XXX      ,  
+    &bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3      XXX     ,  &rgb_ug RGB_EFF &rgb_ug RGB_TOG &rgb_ug RGB_EFR, &rgb_ug RGB_SPD     XXX            XXX             XXX  &kp QK_MOUSE_ACCELERATION_1 XXX      ,  
 //├─────────────┼───────────────┼───────────────┼──────────────┼─────────────┼─────────────┤ ├───────────────┼───────────────┼───────────────┤ ├─────────────┼─────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &bootloader        XXX             XXX             XXX           XXX           XXX     ,        XXX       &rgb_ug RGB_BRD                ,       XXX           XXX            XXX             XXX    &QK_MOUSE_ACCELERATION_2 XXX      ,
+    &bootloader        XXX             XXX             XXX           XXX           XXX     ,        XXX       &rgb_ug RGB_BRD                ,       XXX           XXX            XXX             XXX  &kp QK_MOUSE_ACCELERATION_2 XXX      ,
 //╰─────────────┴───────────────┴───────────────┼──────────────┼─────────────┼─────────────┤ ╰───────────────┴───────────────┴───────────────╯ ├─────────────┼─────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                        XXX           XXX           XXX     ,                                                         XXX           XXX        &to DEFAULT
 //                                              ╰──────────────┴─────────────┴─────────────╯                                                   ╰─────────────┴─────────────┴───────────────╯
