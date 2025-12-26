@@ -50,6 +50,7 @@ ZMK_MACRO(undo, bindings = <&kp LG(Z)>;)
 ZMK_MACRO(redo, bindings = <&kp LG(LS(Z))>;)
 
 // Common actions
+ZMK_MACRO(select_all,             bindings = <&kp LG(A)>;) 
 ZMK_MACRO(find,                   bindings = <&kp LG(F)>;) 
 ZMK_MACRO(find_all,               bindings = <&kp LG(LS(F))>;) 
 ZMK_MACRO(new_file,               bindings = <&kp LG(N)>;)
