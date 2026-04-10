@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: NUM Word, h: Num}
   - $$mdi:keyboard-space$$
-  - {t: NAV Hold, h: Nav}
+  - {t: '&nav_dance 1', h: Nav}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - R
   - {t: Symbols, h: Symbols}
