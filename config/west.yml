@@ -24,19 +24,19 @@ manifest:
     # ZMK modules
     - name: zmk-adaptive-key
       remote: urob
-      revision: main
+      revision: v0.3
     - name: zmk-auto-layer
       remote: urob
-      revision: main
+      revision: v0.3
     - name: zmk-leader-key
       remote: urob
-      revision: main
+      revision: v0.3
     - name: zmk-tri-state
       remote: urob
-      revision: main
+      revision: v0.3
     - name: zmk-unicode
       remote: urob
-      revision: main
+      revision: v0.3
     
     # Custom Nice!View
     - name: hammerbeam-slideshow          
