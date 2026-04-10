@@ -4,9 +4,11 @@
 / {
     behaviors {
         sl_num: sticky_layer_num {
-            compatible = "zmk,behavior-sticky-layer";
+            compatible = "zmk,behavior-sticky-key";
             #binding-cells = <1>;
+            bindings = <&mo>;
             release-after-ms = <5000>;
+            quick-release;
             ignore-modifiers;
         };
 
