@@ -36,6 +36,7 @@
 };
 
 &sl { // Sticky Layer - Allow sticky mods to chord across sticky layers.
+  release-after-ms = <2000>;
   ignore-modifiers;
 };
 

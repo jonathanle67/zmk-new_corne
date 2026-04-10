@@ -3,15 +3,6 @@
 
 / {
     behaviors {
-        sl_nav: sticky_layer_nav {
-            compatible = "zmk,behavior-sticky-key";
-            #binding-cells = <1>;
-            bindings = <&mo>;
-            release-after-ms = <5000>;
-            quick-release;
-            ignore-modifiers;
-        };
-
         nav_word: nav_word {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
@@ -25,5 +16,5 @@
 #define SMART_NAV &smart_nav NAV NAV
 ZMK_HOLD_TAP(smart_nav, bindings = <&mo>, <&nav_dance>; flavor = "balanced";
              tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
-ZMK_TAP_DANCE(nav_dance, bindings = <&nav_word NAV>, <&sl_nav NAV>;
+ZMK_TAP_DANCE(nav_dance, bindings = <&nav_word NAV>, <&sl NAV>;
               tapping-term-ms = <200>;)
