@@ -82,7 +82,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Zoom In
@@ -115,8 +115,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&select_all'
   - Save
-  - Select Word
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - New Tab
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&undo'
   - '&redo'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&quick_cmd_tab'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -149,7 +149,7 @@ layers:
   - {t: ',', s: <}
   Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
   - '|'
@@ -160,9 +160,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&vn_en'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '!'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - '*'
   - {t: /, s: '?'}
   - {t: '=', s: +}
@@ -297,6 +297,7 @@ layers:
 combos:
 - p: [44, 45]
   k: '&soft_off'
+  l: [Enthium, Nav, Num, Symbols, Mouse, Functions]
 - p: [12, 27, 41]
   k: {t: Functions, h: toggle}
   l: [Enthium]
@@ -326,7 +327,10 @@ combos:
   l: [Enthium]
 - p: [9, 10]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [Enthium, Nav, Num, Symbols, Mouse, Functions]
 - p: [10, 11]
   k: $$mdi:backspace-reverse-outline$$
+  l: [Enthium, Nav, Num, Symbols, Mouse, Functions]
 - p: [25, 26]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [Enthium, Nav, Num, Symbols, Mouse, Functions]
