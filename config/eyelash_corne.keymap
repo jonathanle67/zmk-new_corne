@@ -60,6 +60,11 @@ ZMK_TRI_STATE(
     ignored-layers = <MOUSE NAV>;)
 
 #include "behaviors/macros.dtsi"
+
+// Use concrete layer indexes for combos instead of zmk-helpers' 0xff ALL alias.
+#undef ALL
+#define ALL DEFAULT NAV NUM SYM MOUSE FUNC
+
 #include "behaviors/combos.dtsi"
 
 #include "behaviors/num_word.dtsi" 
